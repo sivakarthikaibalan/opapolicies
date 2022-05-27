@@ -1,0 +1,77 @@
+{
+    "user": [
+        {
+            "_id": {
+                "$oid": "626420385f01ff1ffbce62a0"
+            },
+            "name": "Alice",
+            "role": "admin",
+            "resource_group": "group_A",
+            "clearence_level": 5
+        },
+        {
+            "_id": {
+                "$oid": "626420385f01ff1ffbce62a1"
+            },
+            "name": "Jacob",
+            "role": "admin",
+            "resource_group": "group_B",
+            "clearence_level": 3
+        },
+        {
+            "_id": {
+                "$oid": "626420385f01ff1ffbce62a2"
+            },
+            "name": "Antony",
+            "role": "admin",
+            "resource_group": "group_B",
+            "clearence_level": 1
+        }
+    ],
+    "resourses": [
+        {
+            "_id": {
+                "$oid": "626660bd913799d7e7699452"
+            },
+            "name": "A",
+            "group": "group_A"
+        },
+        {
+            "_id": {
+                "$oid": "626660c9913799d7e7699454"
+            },
+            "name": "B",
+            "group": "group_B"
+        },
+        {
+            "_id": {
+                "$oid": "62667920913799d7e769945f"
+            },
+            "name": "C",
+            "group": "group_A"
+        }
+    ],
+    "actions": [
+        {
+            "_id": {
+                "$oid": "626660e7913799d7e7699457"
+            },
+            "type": "read",
+            "clearence_level": 1
+        },
+        {
+            "_id": {
+                "$oid": "626660fe913799d7e7699458"
+            },
+            "type": "write",
+            "clearence_level": 3
+        },
+        {
+            "_id": {
+                "$oid": "62666108913799d7e7699459"
+            },
+            "type": "delete",
+            "clearence_level": 5
+        }
+    ]
+}
